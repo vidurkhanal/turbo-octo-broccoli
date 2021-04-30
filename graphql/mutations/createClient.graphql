@@ -1,0 +1,8 @@
+mutation CreateNewLink($completeLink: String!) {
+  CreateLink(completeLink: $completeLink) {
+    id
+    createdAt
+    updatedAt
+    shortLink
+  }
+}
